@@ -1,0 +1,105 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.App-container {
+    display: flex;
+}
+.App-container .Activities {
+    flex: 3;
+}
+
+.App-container .Conversation{
+    flex: 7;
+}
+
+.welcome {
+
+}
+
+.welcome h1 {
+    display: block;
+}
+.welcome div {
+    display: flex;
+}
+.welcome div > input {
+    flex: 3;
+    padding: 15px;
+    text-align: center;
+    font-size: 1em;
+}
+.welcome div > button {
+    flex: 1;
+}
+.App-name {
+    color: #61dafb;
+    text-align: center;
+}
+.User-name {
+    color: #000000;
+    text-align: center;
+}
+
+.Message-container {
+    min-width: 60%;
+    height: 500px;
+    border: 1px solid #61dafb;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.Input-message {
+    display: flex;
+}
+
+.Input-message input {
+    flex: 3;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: none;
+    min-height: 15px;
+    padding: 5px;
+    box-shadow: 0 1px 3px #000;
+    outline: none;
+}
+
+.Input-message button {
+    flex: 1;
+    background: #61dafb;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1em;
+    border: none;
+    outline: none
+}
+
+.Message-container .Message-item {
+    margin: 5px 0;
+}
+
+.Message-container .Message-item .Message-content {
+    display: inline-block;
+    background-color: #eee;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.Message-container .Message-item .My-message {
+    text-align: right;
+}
+
+.Message-container .Message-item .My-message.Message-content {
+    background-color: #2a86ff;
+    color: #ffffff;
+}
+
+.Message-container .Message-item .Message-content .user {
+    color: #61dafb;
+}
